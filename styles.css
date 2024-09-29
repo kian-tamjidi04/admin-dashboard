@@ -1,0 +1,15 @@
+body {
+    display: flex;
+}
+
+body > div {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
