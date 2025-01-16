@@ -121,3 +121,15 @@ body {
     align-items: center;
     gap: 50px;
 }
+
+.bottom-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.bottom-rhs {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
