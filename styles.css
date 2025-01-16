@@ -23,7 +23,7 @@ body {
     grid-template-rows: 1fr 2fr;
 }
 
-.sidebar-item img {
+.sidebar-item img, .profile-area img {
     width: 25px;
     height: 25px;
 }
@@ -77,4 +77,17 @@ body {
     display: flex;
     gap: 15px;
     align-items: center;
+}
+
+#pfp {
+    width: 50px;
+    height: 50px;
+}
+
+.profile-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
 }
