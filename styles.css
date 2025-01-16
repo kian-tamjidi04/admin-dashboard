@@ -91,3 +91,19 @@ body {
     gap: 10px;
     font-weight: bold;
 }
+
+.hello-user-section img {
+    width: 70px;
+    height: 70px;
+}
+
+.hello-user-section {
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.large-text, .small-text {
+    padding: 0px;
+    margin: 5px;
+}
