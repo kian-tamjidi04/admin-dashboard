@@ -158,3 +158,28 @@ body {
     align-items: center;
     justify-content: end;
 }
+
+.generic-box {
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.announcement-info > p {
+    font-size: 11px;
+}
+
+.announcement-info > h4 {
+    margin: 0px;
+}
+
+.generic-box .announcement-info {
+    border-bottom: 2px solid #ccc;
+    padding: 10px; 
+}
+
+.generic-box .announcement-info:last-child {
+    border-bottom: none; 
+}
